@@ -8,8 +8,6 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -23,7 +21,27 @@
 
 body {
     background-color: var(--main-bg-color);
-    font-size: 15px;
+}
+
+.container {
+    background-color: var(--card-bg);
+    margin: 20px 20px 20px 20px;
+    padding: 50px 20px 50px 20px;
+}
+
+h1 {
     font-family: 'Inter', sans-serif;
+}
+
+p {
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
 }
